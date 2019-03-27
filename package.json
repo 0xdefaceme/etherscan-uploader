@@ -1,0 +1,26 @@
+{
+  "name": "etherscan-uploader",
+  "version": "1.0.0",
+  "description": "A command line tool to verify contracts to etherscan",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/0xdefaceme/etherscan-uploader.git"
+  },
+  "keywords": [
+    "etherscan",
+    "ethereum",
+    "smart",
+    "contracts",
+    "uploader"
+  ],
+  "author": "Tim Daubenschuetz",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/0xdefaceme/etherscan-uploader/issues"
+  },
+  "homepage": "https://github.com/0xdefaceme/etherscan-uploader#readme"
+}
