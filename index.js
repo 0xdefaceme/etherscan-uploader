@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 // @format
 const program = require('commander');
 const util = require('util');
