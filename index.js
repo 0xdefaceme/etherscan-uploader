@@ -33,7 +33,8 @@ program
   .parse(process.argv);
 
 (async function flatten() {
-  const path = './node_modules/.bin/poa-solidity-flattener';
+  const modulesDir = (await exec('npm root -g')).stdout.trim();
+  const path = `${modulesDir}/etherscan-uploader/node_modules/.bin/poa-solidity-flattener`;
   const file = resolve(program.file);
   const fileName = basename(file).split('.')[0];
   const args = `${path} ${file}`;
