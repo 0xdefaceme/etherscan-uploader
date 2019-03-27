@@ -1,6 +1,6 @@
 {
   "name": "etherscan-uploader",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "A command line tool to verify contracts to etherscan",
   "main": "index.js",
   "scripts": {
@@ -22,5 +22,12 @@
   "bugs": {
     "url": "https://github.com/0xdefaceme/etherscan-uploader/issues"
   },
-  "homepage": "https://github.com/0xdefaceme/etherscan-uploader#readme"
+  "homepage": "https://github.com/0xdefaceme/etherscan-uploader#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "commander": "^2.19.0",
+    "rimraf": "^2.6.3",
+    "sol-verifier": "TimDaub/sol-verifier#better-parser",
+    "solidity-flattener": "git+https://github.com/poanetwork/solidity-flattener.git"
+  }
 }
