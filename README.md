@@ -10,6 +10,12 @@ Make sure you have > node 10 LTS installed. There's currently no `yarn.lock` fil
 $ npm i -g etherscan-uploader
 ```
 
+or with yarn
+
+```
+$ yarn global add etherscan-uploader --ignore-engines
+```
+
 ## Usage
 
 ```
