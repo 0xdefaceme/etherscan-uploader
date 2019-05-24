@@ -30,6 +30,7 @@ program
     val => val.split(','),
     [],
   )
+  .option('-o --optimize', 'Optimizes the contract in 200 cycles')
   .parse(process.argv);
 
 (async function flatten() {
