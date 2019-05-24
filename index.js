@@ -10,9 +10,10 @@ const basename = require('path').basename;
 const axios = require('axios');
 const verifier = require('sol-verifier');
 const rimraf = require('rimraf');
+const version = require('./package.json').version;
 
 program
-  .version('0.0.1')
+  .version(version)
   .option('-f --file <path>', 'Contract file to flatten')
   .option('-k --api-key <path>', 'Etherscan API key')
   .option('-a --address <path>', 'Contract address')
