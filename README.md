@@ -4,7 +4,7 @@
 
 ## Installation:
 
-Make sure you have > node 10 LTS installed.
+Make sure you have > node 10 LTS installed. There's currently no `yarn.lock` file, so an install with `yarn` is very likely to fail ([open issue](https://github.com/0xdefaceme/etherscan-uploader/issues/7)).
 
 ```
 $ npm i -g etherscan-uploader
